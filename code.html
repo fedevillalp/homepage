@@ -73,16 +73,19 @@
               
               <div class="d-flex w-100 justify-content-between">
                 <!-- <a href="https://github.com/fedevillalp/FaceloginFede" class="list-group-item list-group-item-action"> -->
-                  <h5 class="mb-1">Image color clustering</h5>
+                  <h5 class="mb-1">Finding the dominant colors in a painting using k-means clustering</h5>
                 <!-- </a>  -->
 
-                  <small class="text-muted">FACE RECOGNITION API</small>
+                  <small class="text-muted">K-MEANS CLUSTERING</small>
               </div>
-              <p class="mb-1" style="text-align:justify" >This app authenticates the user with a picture of their face. The picture that the user provides gets stored in the Microsoft Azure Face Recognition Cloud and can be used to authenticate the user upon login. To login, the user's current foto is compared to the foto that was provided at registration.
-                Currently, the app works by using links to pictures. The next step is to add capability to get face pictures directly from the users webcam. The same could be done for audio to execute voice recognition authenitcation. The database is a mySQL database that is hosted on Heroku using an instance of JawsDB.   </p>
+              <p class="mb-1" style="text-align:justify" >This program takes in an image and returns a plot of the dominant colors in the image. 
+
+                It does so by transforming the pixel information into three R, G, B vectors and performing k-means clustering.
+                
+                The cluster centroids are then transformed back to RGB values and plotted to depict the dominant colors.   </p>
               <div align="left">
                  
-                <small class="text-muted" ><a href="https://github.com/fedevillalp/FaceloginFede">GitHub Repo </a> Javascript, mySQL, JawsDB, JQuery, HTML, Express, Heroku, Heroku, JawsDB, Microsoft Azure Face Recognition API</small>
+                <small class="text-muted" ><a href="https://github.com/fedevillalp/imagecolorclusters">GitHub Repo </a> Python</small>
               
               </div>
               
@@ -101,15 +104,7 @@
                         <div class="carousel-inner">
     
                           <div class="carousel-item active">
-                            <img class="d-block w-100" src="assets/fotos/facelogin/image5.png"  alt="First slide">
-                          </div>
-    
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="assets/fotos/facelogin/image4.png" alt="Second slide">
-                          </div>
-    
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="assets/fotos/facelogin/image2.png" alt="Third slide">
+                            <img class="d-block w-100" src="assets/fotos/imagecolorclusters/result3.png"  alt="First slide">
                           </div>
     
                         </div>
